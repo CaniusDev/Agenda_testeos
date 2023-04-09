@@ -58,7 +58,7 @@ public class Registros extends AppCompatActivity {
             }
         });
     }
-    private int calcularFactorial(int number) {
+    public static int calcularFactorial(int number) {
         if (number == 0 || number == 1) {
             return 1;
         } else {
